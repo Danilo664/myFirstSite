@@ -23,6 +23,9 @@ body{
 }
 .header-subSection{
     margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
 }
 /*Main----------------------------------sections*/
 
@@ -34,17 +37,47 @@ li{
 a{
     text-decoration-line: none;
     color: #F9FAF8;
-    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 ul{
     display: flex;
 }
+.links{
+    display: flex;
+    padding: 0px;
+    gap:15px;
+}
 
 .logo{
     display: flex;
-    padding: 10px;
     font-weight: bold;
+    font-size: 24px;
 }
 /*header styling*/
 
-
+/*stuff under header*/
+.ssText{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 10px;
+}
+.bigText{
+    font-size: 48px;
+    font-weight:bolder;
+}
+.subText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#b1{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    background-color: #3882F6;
+    border-radius:5px;
+    border-color: #3882F6;
+    color:white;
+}
+/*stuff under header*/
