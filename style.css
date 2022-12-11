@@ -1,10 +1,18 @@
 /*WATASHI GA KITA*/
 
+
+/*Main----------------------------------sections*/
 body{
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+}
+.section1{ /*This is first section with blue coloring and stuff*/
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 .header{
     display: flex;
@@ -13,7 +21,13 @@ body{
     
     margin: 0 200px;
 }
+.header-subSection{
+    margin: 0 200px;
+}
+/*Main----------------------------------sections*/
 
+
+/*header styling*/
 li{
     list-style: none;
 }
@@ -29,15 +43,8 @@ ul{
 .logo{
     display: flex;
     padding: 10px;
+    font-weight: bold;
 }
+/*header styling*/
 
-.section1{
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
 
-.header-subSection{
-    margin: 0 200px;
-}
