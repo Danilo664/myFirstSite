@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    height: 100vh;
 }
 .section1{ /*This is first section with blue coloring and stuff*/
     display: flex;
@@ -19,13 +20,13 @@ body{
     justify-content: space-between;
     align-items: center;
     
-    margin: 0 200px;
+    margin: 0 300px;
 }
 .header-subSection{
-    margin: 0 200px;
+    margin: 0 300px;
     display: flex;
-    justify-content: space-between;
     padding: 50px 0;
+    justify-content:space-between
 }
 /*Main----------------------------------sections*/
 
@@ -60,7 +61,7 @@ ul{
 .ssText{
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 50%;
     gap: 10px;
 }
 .bigText{
@@ -79,5 +80,8 @@ ul{
     border-radius:5px;
     border-color: #3882F6;
     color:white;
+}
+.memeImage{
+    width:50%;
 }
 /*stuff under header*/
