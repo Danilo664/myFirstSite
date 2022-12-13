@@ -86,3 +86,38 @@ ul{
     height: 214px;
 }
 /*stuff under header*/
+/*2nd section of exercise*/
+.s2txt{
+    display: flex;
+    /*required for solution*/
+    font-size: 36px;
+    font-weight:1000;
+    /*required for solution*/
+    justify-content: center;
+    padding: 2% 0;
+}
+
+.fourPics{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.pic{
+    border:#3882F6 solid 4px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.txt{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+}
+/*2nd section of exercise*/
