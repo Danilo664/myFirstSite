@@ -96,28 +96,21 @@ ul{
     justify-content: center;
     padding: 2% 0;
 }
-
 .fourPics{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-.pic{
-    border:#3882F6 solid 4px;
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    margin: 0 300px;
+    justify-content: space-between;
 }
 .group{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 100px;
+    padding: 10px;
+}
+.pic{
+    border: #3882F6 5px solid;
+    border-radius: 10px;
+    padding: 1px;
 }
 .txt{
-    display: flex;
-    font-size: 18px;
     text-align: center;
 }
 /*2nd section of exercise*/
