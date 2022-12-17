@@ -121,3 +121,55 @@ ul{
     text-align: center;
 }
 /*2nd section of exercise*/
+
+/*3rd section of exercise*/
+.quoteGroup{
+    display: flex;
+    flex-direction: column;
+    /*required*/
+    background-color: #E5E7EB;
+    /*required*/
+    
+    padding: 80px 0;
+}
+.quoteTxt{
+    /*required*/
+    display: flex;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    font-weight: lighter;
+    /*required*/
+    margin: 0 300px;
+}
+.quoteName{
+    margin: 0 300px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+/*3rd section of exercise*/
+
+
+/*4th section of exercise*/
+.buttonSec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 80px 300px;
+    padding: 50px 0;
+}
+.SUbutton{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    background-color: #3882F6;
+    border-radius:5px;
+    border-color: white;
+    color:white;   
+}
+/*4th section of exercise*/
+
+/*footer*/
+/*footer*/
