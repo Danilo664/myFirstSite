@@ -14,16 +14,19 @@ body{
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
+    
+}
+.section2{
+    margin: 0 20vw;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    margin: 0 300px;
+    margin: 0 20vw;
 }
 .header-subSection{
-    margin: 0 300px;
+    margin: 0 20vw;
     display: flex;
     padding: 50px 0px;
 }
@@ -84,6 +87,8 @@ ul{
 .memeImage{
     display: flex;
     flex:1;
+    width: max-content;
+    height:max-content;
 }
 /*stuff under header*/
 /*2nd section of exercise*/
@@ -94,11 +99,10 @@ ul{
     font-weight:1000;
     /*required for solution*/
     justify-content: center;
-    padding: 2% 0;
+    text-align: center;
 }
 .fourPics{
     display: flex;
-    margin: 0 300px;
     justify-content: space-between;
 }
 .group{
@@ -133,10 +137,10 @@ ul{
     color: #1F2937;
     font-weight: lighter;
     /*required*/
-    margin: 0 300px;
+    margin: 0 20vw;
 }
 .quoteName{
-    margin: 0 300px;
+    margin: 0 20vw;
     display: flex;
     justify-content: flex-end;
     font-weight: 600;
@@ -150,8 +154,8 @@ ul{
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    margin: 80px 300px;
-    padding: 50px 0;
+    margin: 80px 20vw;
+    padding: 50px 20px;
     border-radius: 10px;
     color:white;  
 }
